@@ -1,6 +1,6 @@
 // borjaMontseny DAW2 M06
 do {
-    let frase = prompt("Introdueix, o 0 per acabar");
+    let frase = prompt("Introdueix una frase, o 0 per acabar");
     if (frase !== "0") {
         document.write("<p>Frase: <b>" + frase + "</b></p>");
         // Creem un array amb tots els contadors i cridem a una funcio que els tornará omplerts

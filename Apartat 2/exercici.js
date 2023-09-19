@@ -1,6 +1,6 @@
 // borjaMontseny DAW2 M06 2023
 do {
-    let frase = prompt("Introdueix, o 0 per acabar");
+    let frase = prompt("Introdueix una frase, o 0 per acabar");
     if (frase !== "0") {
         let fraseMayus = frase.toLocaleUpperCase();
         document.write("<p>Frase: <b>" + frase + "</b></p>");
